@@ -11,7 +11,7 @@ import UIKit
 class DevViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad();print("DevVC23");
+        super.viewDidLoad();
     }
 
     override func didReceiveMemoryWarning() {
