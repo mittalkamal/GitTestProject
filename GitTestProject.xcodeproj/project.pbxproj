@@ -15,6 +15,7 @@
 		5D024E131EDC107B00E34CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D024E111EDC107B00E34CF7 /* LaunchScreen.storyboard */; };
 		5D024E1E1EDC107B00E34CF7 /* GitTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D024E1D1EDC107B00E34CF7 /* GitTestProjectTests.swift */; };
 		5D024E291EDC107B00E34CF7 /* GitTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D024E281EDC107B00E34CF7 /* GitTestProjectUITests.swift */; };
+		5D024E371EDD666400E34CF7 /* DevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D024E361EDD666400E34CF7 /* DevViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5D024E241EDC107B00E34CF7 /* GitTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D024E281EDC107B00E34CF7 /* GitTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTestProjectUITests.swift; sourceTree = "<group>"; };
 		5D024E2A1EDC107B00E34CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D024E361EDD666400E34CF7 /* DevViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5D024E111EDC107B00E34CF7 /* LaunchScreen.storyboard */,
 				5D024E141EDC107B00E34CF7 /* Info.plist */,
 				5D024E0C1EDC107B00E34CF7 /* GitTestProject.xcdatamodeld */,
+				5D024E361EDD666400E34CF7 /* DevViewController.swift */,
 			);
 			path = GitTestProject;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D024E371EDD666400E34CF7 /* DevViewController.swift in Sources */,
 				5D024E081EDC107B00E34CF7 /* ViewController.swift in Sources */,
 				5D024E0E1EDC107B00E34CF7 /* GitTestProject.xcdatamodeld in Sources */,
 				5D024E061EDC107B00E34CF7 /* AppDelegate.swift in Sources */,
@@ -518,6 +522,7 @@
 				5D024E2F1EDC107B00E34CF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D024E301EDC107B00E34CF7 /* Build configuration list for PBXNativeTarget "GitTestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				5D024E321EDC107B00E34CF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D024E331EDC107B00E34CF7 /* Build configuration list for PBXNativeTarget "GitTestProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				5D024E351EDC107B00E34CF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
