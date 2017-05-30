@@ -12,13 +12,6 @@ class DevViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("DevViewController")
-
-        
-        print("DevViewController")
-        
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
