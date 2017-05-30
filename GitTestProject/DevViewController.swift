@@ -13,6 +13,9 @@ class DevViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        print("DevViewController")
+        
         // Do any additional setup after loading the view.
     }
 
